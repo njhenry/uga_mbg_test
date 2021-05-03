@@ -1,0 +1,20 @@
+folders:
+  in_data: '~/temp_data/hss_coding_test/in_data'
+  code: '~/temp_data/hss_coding_test/scripts'
+  outputs: '~/temp_data/hss_coding_test/outputs'
+in_files:
+  data: 'data.csv'
+  covariates: 'covariates_brick.tif'
+  pop_density: 'uga_pd_2020_1km_UNadj.tif'
+scripts:
+  exec: 'run_uga_model.R'
+  viz: 'uga_visualization.R'
+  r_functions: 'helper_functions.R'
+  tmb_template: 'tmb_template.cpp'
+settings:
+  random_seed: 20210422
+  num_holdouts: 5
+  load_libraries: [
+    'argparse','data.table','ggplot2','raster','rgdal','glue','TMB','INLA','sp','sf',
+    'fasterize', 'rgeos', 'tictoc', 'matrixStats'
+  ]
