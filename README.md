@@ -36,10 +36,10 @@ The script expects the following inputs:
 #### CSV of survey points, numerator, and denominator
 
 A CSV of point-geolocated survey data should contain the following fields:
-- 'latitude' (float)
-- 'longitude' (float)
-- 'edu0' (numerator, float)
-- 'N' (denominator, float, strictly >= 'edu0')
+- `latitude` (float)
+- `longitude` (float)
+- `edu0` (numerator, float)
+- `N` (denominator, float, strictly >= `edu0`)
 
 
 #### Raster covariate data
