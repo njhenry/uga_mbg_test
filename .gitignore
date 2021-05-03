@@ -1,2 +1,4 @@
 in_data/
 outputs/
+scripts/*.o
+scripts/*.so
