@@ -12,10 +12,14 @@ This repository is split into the following files:
 ```
 config.yaml: File paths and model settings that may change by user
 scripts/
-  01_run_uga_model.R: Script, callable from the command line, that runs a geostatistical model with covariates to estimate prior education across space
-  02_uga_postestimation.R: Create maps and calculate summary statistics and predictive validity metrics for a given model run
-  helper_functions.R: Functions called by the two executable scripts
-  tmb_template.cpp: Template Model Builder (TMB) objective function for the geostatistical model
+  - 01_run_uga_model.R: Script, callable from the command line, that runs
+      a geostatistical model with covariates to estimate prior education 
+      across space
+  - 02_uga_postestimation.R: Create maps and calculate summary statistics
+      and predictive validity metrics for a given model run
+  - helper_functions.R: Functions called by the two executable scripts
+  - tmb_template.cpp: Template Model Builder (TMB) objective function for
+      the geostatistical model
 
 ```
 
